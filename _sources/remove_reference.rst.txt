@@ -1,0 +1,11 @@
+remove_reference
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::remove_reference
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

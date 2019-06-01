@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>NumerDenomVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="OptsCSEVisitor" href="OptsCSEVisitor.html" />
+    <link rel="prev" title="NeedsSymbolicExpansionVisitor" href="NeedsSymbolicExpansionVisitor.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>NumerDenomVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="NeedsSymbolicExpansionVisitor.html">NeedsSymbolicExpansionVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="OptsCSEVisitor.html">OptsCSEVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="numerdenomvisitor">
+<h1>NumerDenomVisitor<a class="headerlink" href="#numerdenomvisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitorE">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitorE"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitorE"></span><span id="SymEngine::NumerDenomVisitor"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor"></span><em class="property">class </em><code class="descname">NumerDenomVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine17NumerDenomVisitorE" title="SymEngine::NumerDenomVisitor">NumerDenomVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor17NumerDenomVisitorERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor17NumerDenomVisitorERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor17NumerDenomVisitorERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE"></span><span id="SymEngine::NumerDenomVisitor::NumerDenomVisitor__Ptr:RCP:BasicC::CR.Ptr:RCP:BasicC::CR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1acede692d2efebe731f6f082531f3adc8"></span><code class="descname">NumerDenomVisitor</code><span class="sig-paren">(</span><em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; &amp;<em>numer</em>, <em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; &amp;<em>denom</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor17NumerDenomVisitorERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor5applyERK5Basic">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor5applyERK5Basic"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor5applyERK5Basic"></span><span id="SymEngine::NumerDenomVisitor::apply__BasicCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a3cb0e767d37ef01c81be865ea449a157"></span>void <code class="descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor5applyERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6bvisitERK3Mul"></span><span id="SymEngine::NumerDenomVisitor::bvisit__MulCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a56b06b339a9b3ee47ada4665c4899bca"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6bvisitERK3Add"></span><span id="SymEngine::NumerDenomVisitor::bvisit__AddCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a2aa21f53adc21a3dbf628f4f67b5e9ea"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6bvisitERK3Pow"></span><span id="SymEngine::NumerDenomVisitor::bvisit__PowCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a816b36f2219d3145c4eec78d72c87383"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK7Complex">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6bvisitERK7Complex"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6bvisitERK7Complex"></span><span id="SymEngine::NumerDenomVisitor::bvisit__ComplexCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a21fe1142d401728752b851c8643f8349"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK8Rational">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6bvisitERK8Rational"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6bvisitERK8Rational"></span><span id="SymEngine::NumerDenomVisitor::bvisit__RationalCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a88795a05e6718f71fbc3a3b2b1d7123a"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6bvisitERK5Basic"></span><span id="SymEngine::NumerDenomVisitor::bvisit__BasicCR"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a757316c6b4d0d577b5efcc3927706d20"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Private Members</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6numer_E">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6numer_E"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6numer_E"></span><span id="SymEngine::NumerDenomVisitor::numer___Ptr:RCP:BasicC::"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a8fd19b74b404097ed330d5b49a8d1823"></span>Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; <code class="descname">numer_</code><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6numer_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv4N9SymEngine17NumerDenomVisitor6denom_E">
+<span id="_CPPv3N9SymEngine17NumerDenomVisitor6denom_E"></span><span id="_CPPv2N9SymEngine17NumerDenomVisitor6denom_E"></span><span id="SymEngine::NumerDenomVisitor::denom___Ptr:RCP:BasicC::"></span><span class="target" id="classSymEngine_1_1NumerDenomVisitor_1a66e987890d40e42ee627f75ac2ab3ae9"></span>Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; <code class="descname">denom_</code><a class="headerlink" href="#_CPPv4N9SymEngine17NumerDenomVisitor6denom_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="NeedsSymbolicExpansionVisitor.html">NeedsSymbolicExpansionVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="OptsCSEVisitor.html">OptsCSEVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

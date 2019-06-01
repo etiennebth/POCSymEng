@@ -1,0 +1,11 @@
+FunctionSymbol
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::FunctionSymbol
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

@@ -1,0 +1,11 @@
+Dummy
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Dummy
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

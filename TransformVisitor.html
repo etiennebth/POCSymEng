@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>TransformVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="is_base_of_multiple" href="is_base_of_multiple.html" />
+    <link rel="prev" title="CoeffVisitor" href="CoeffVisitor.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>TransformVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="CoeffVisitor.html">CoeffVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="is_base_of_multiple.html">is_base_of_multiple</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="transformvisitor">
+<h1>TransformVisitor<a class="headerlink" href="#transformvisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine16TransformVisitorE">
+<span id="_CPPv3N9SymEngine16TransformVisitorE"></span><span id="_CPPv2N9SymEngine16TransformVisitorE"></span><span id="SymEngine::TransformVisitor"></span><span class="target" id="classSymEngine_1_1TransformVisitor"></span><em class="property">class </em><code class="descname">TransformVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine16TransformVisitorE" title="SymEngine::TransformVisitor">TransformVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subclassed by <a class="reference internal" href="BaseVisitor.html#classSymEngine_1_1BaseVisitor"><span class="std std-ref">SymEngine::BaseVisitor&lt; EvalVisitor, TransformVisitor &gt;</span></a>, <a class="reference internal" href="BaseVisitor.html#classSymEngine_1_1BaseVisitor"><span class="std std-ref">SymEngine::BaseVisitor&lt; RebuildVisitor, TransformVisitor &gt;</span></a>, <a class="reference internal" href="BaseVisitor.html#classSymEngine_1_1BaseVisitor"><span class="std std-ref">SymEngine::BaseVisitor&lt; RewriteAsExp, TransformVisitor &gt;</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor16TransformVisitorEv">
+<span id="_CPPv3N9SymEngine16TransformVisitor16TransformVisitorEv"></span><span id="_CPPv2N9SymEngine16TransformVisitor16TransformVisitorEv"></span><span id="SymEngine::TransformVisitor::TransformVisitor"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1ae3f62e4939fc528b9d617b12e197b029"></span><code class="descname">TransformVisitor</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor16TransformVisitorEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor5applyERK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine16TransformVisitor5applyERK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine16TransformVisitor5applyERK3RCPIK5BasicE"></span><span id="SymEngine::TransformVisitor::apply__RCP:BasicC:CR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1aaad759414211ee4b0d936443f7754ac1"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor5applyERK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine16TransformVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine16TransformVisitor6bvisitERK5Basic"></span><span id="SymEngine::TransformVisitor::bvisit__BasicCR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1ab7c3f3487ee50fbfded6513d29e07c44"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine16TransformVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine16TransformVisitor6bvisitERK3Add"></span><span id="SymEngine::TransformVisitor::bvisit__AddCR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1ac818ed66dbd0557179be0e25a9e77e41"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine16TransformVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine16TransformVisitor6bvisitERK3Mul"></span><span id="SymEngine::TransformVisitor::bvisit__MulCR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1ad5100f8b5ebe8e3985266c4e2c4dc4f9"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine16TransformVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine16TransformVisitor6bvisitERK3Pow"></span><span id="SymEngine::TransformVisitor::bvisit__PowCR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1afe9b8854fb456d7dd30d1146defb11ba"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor6bvisitERK14OneArgFunction">
+<span id="_CPPv3N9SymEngine16TransformVisitor6bvisitERK14OneArgFunction"></span><span id="_CPPv2N9SymEngine16TransformVisitor6bvisitERK14OneArgFunction"></span><span id="SymEngine::TransformVisitor::bvisit__OneArgFunctionCR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1a39c35db9c5a881d59084cd8dad942df7"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="OneArgFunction.html#_CPPv4N9SymEngine14OneArgFunctionE" title="SymEngine::OneArgFunction">OneArgFunction</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor6bvisitERK14OneArgFunction" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4I0EN9SymEngine16TransformVisitor6bvisitEvRK11TwoArgBasicI1TE">
+<span id="_CPPv3I0EN9SymEngine16TransformVisitor6bvisitERK11TwoArgBasicI1TE"></span><span id="_CPPv2I0EN9SymEngine16TransformVisitor6bvisitERK11TwoArgBasicI1TE"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1a528f208a4a8114f1808f8514e7ad4548"></span>template&lt;class <code class="descname">T</code>&gt;<br />void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> TwoArgBasic&lt;<a class="reference internal" href="#_CPPv4I0EN9SymEngine16TransformVisitor6bvisitEvRK11TwoArgBasicI1TE" title="SymEngine::TransformVisitor::bvisit::T">T</a>&gt; &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN9SymEngine16TransformVisitor6bvisitEvRK11TwoArgBasicI1TE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine16TransformVisitor6bvisitERK16MultiArgFunction">
+<span id="_CPPv3N9SymEngine16TransformVisitor6bvisitERK16MultiArgFunction"></span><span id="_CPPv2N9SymEngine16TransformVisitor6bvisitERK16MultiArgFunction"></span><span id="SymEngine::TransformVisitor::bvisit__MultiArgFunctionCR"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1aa5ebd4dabb78bfb20e28d56312fde048"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="MultiArgFunction.html#_CPPv4N9SymEngine16MultiArgFunctionE" title="SymEngine::MultiArgFunction">MultiArgFunction</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor6bvisitERK16MultiArgFunction" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine16TransformVisitor7result_E">
+<span id="_CPPv3N9SymEngine16TransformVisitor7result_E"></span><span id="_CPPv2N9SymEngine16TransformVisitor7result_E"></span><span id="SymEngine::TransformVisitor::result___RCP:BasicC:"></span><span class="target" id="classSymEngine_1_1TransformVisitor_1a1260f9484f67470b67d768f44e8d1120"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="descname">result_</code><a class="headerlink" href="#_CPPv4N9SymEngine16TransformVisitor7result_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="CoeffVisitor.html">CoeffVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="is_base_of_multiple.html">is_base_of_multiple</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

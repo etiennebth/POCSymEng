@@ -1,0 +1,11 @@
+BaseVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::BaseVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

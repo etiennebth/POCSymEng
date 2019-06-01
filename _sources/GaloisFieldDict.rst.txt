@@ -1,0 +1,11 @@
+GaloisFieldDict
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::GaloisFieldDict
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

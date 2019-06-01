@@ -1,0 +1,11 @@
+LocalStopVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::LocalStopVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

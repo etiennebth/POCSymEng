@@ -1,0 +1,11 @@
+Sec
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Sec
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

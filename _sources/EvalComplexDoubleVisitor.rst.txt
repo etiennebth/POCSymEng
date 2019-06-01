@@ -1,0 +1,11 @@
+EvalComplexDoubleVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::EvalComplexDoubleVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

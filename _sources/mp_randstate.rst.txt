@@ -1,0 +1,11 @@
+mp_randstate
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::mp_randstate
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

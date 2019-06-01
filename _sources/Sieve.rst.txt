@@ -1,0 +1,11 @@
+Sieve
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Sieve
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

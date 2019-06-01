@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>CountOpsVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ComplexDouble" href="ComplexDouble.html" />
+    <link rel="prev" title="AtomsVisitor" href="AtomsVisitor.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>CountOpsVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="AtomsVisitor.html">AtomsVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="ComplexDouble.html">ComplexDouble</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="countopsvisitor">
+<h1>CountOpsVisitor<a class="headerlink" href="#countopsvisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitorE">
+<span id="_CPPv3N9SymEngine15CountOpsVisitorE"></span><span id="_CPPv2N9SymEngine15CountOpsVisitorE"></span><span id="SymEngine::CountOpsVisitor"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor"></span><em class="property">class </em><code class="descname">CountOpsVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine15CountOpsVisitorE" title="SymEngine::CountOpsVisitor">CountOpsVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor5applyERK5Basic">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor5applyERK5Basic"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor5applyERK5Basic"></span><span id="SymEngine::CountOpsVisitor::apply__BasicCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a00391c7677d6ab335def1260260a22d3"></span>void <code class="descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor5applyERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK3Mul"></span><span id="SymEngine::CountOpsVisitor::bvisit__MulCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a8b8e4e072b64534a7582c0a30da9ae29"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK3Add"></span><span id="SymEngine::CountOpsVisitor::bvisit__AddCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a02425ada79ec24b2f85e4e2bb24c23b7"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK3Pow"></span><span id="SymEngine::CountOpsVisitor::bvisit__PowCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a536aa913bc75631d249c1712d37ac0b8"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Number">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK6Number"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK6Number"></span><span id="SymEngine::CountOpsVisitor::bvisit__NumberCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a63d77eeb6e06a0269d4552ea9cd49bec"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase"></span><span id="SymEngine::CountOpsVisitor::bvisit__ComplexBaseCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a17cebcb5bbc6e7c847293e3d9a23a350"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ComplexBase.html#_CPPv4N9SymEngine11ComplexBaseE" title="SymEngine::ComplexBase">ComplexBase</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Symbol">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK6Symbol"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK6Symbol"></span><span id="SymEngine::CountOpsVisitor::bvisit__SymbolCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a3a3883c212b845f0c682ed21adaa3f4a"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Symbol" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK8Constant">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK8Constant"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK8Constant"></span><span id="SymEngine::CountOpsVisitor::bvisit__ConstantCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a285e82978e57cf9eec86c0b9f35dcdd2"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Constant.html#_CPPv4N9SymEngine8ConstantE" title="SymEngine::Constant">Constant</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK8Constant" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK5Basic"></span><span id="SymEngine::CountOpsVisitor::bvisit__BasicCR"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1abeaa2242d65b340558eb123398352931"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor5countE">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor5countE"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor5countE"></span><span id="SymEngine::CountOpsVisitor::count__unsigned"></span><span class="target" id="classSymEngine_1_1CountOpsVisitor_1a789d8f1c74cba18ab2f9ec18822dcd18"></span>unsigned <code class="descname">count</code> = 0<a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor5countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="AtomsVisitor.html">AtomsVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="ComplexDouble.html">ComplexDouble</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

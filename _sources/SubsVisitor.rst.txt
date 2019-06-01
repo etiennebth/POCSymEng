@@ -1,0 +1,11 @@
+SubsVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::SubsVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

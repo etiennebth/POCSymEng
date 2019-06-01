@@ -1,0 +1,11 @@
+Max
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Max
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

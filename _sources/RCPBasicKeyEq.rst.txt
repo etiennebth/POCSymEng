@@ -1,0 +1,11 @@
+RCPBasicKeyEq
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::RCPBasicKeyEq
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

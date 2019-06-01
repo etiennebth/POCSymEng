@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>SeriesCoeffInterface &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SeriesBase" href="SeriesBase.html" />
+    <link rel="prev" title="Rational" href="Rational.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>SeriesCoeffInterface</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="Rational.html">Rational</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="SeriesBase.html">SeriesBase</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="seriescoeffinterface">
+<h1>SeriesCoeffInterface<a class="headerlink" href="#seriescoeffinterface" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine20SeriesCoeffInterfaceE">
+<span id="_CPPv3N9SymEngine20SeriesCoeffInterfaceE"></span><span id="_CPPv2N9SymEngine20SeriesCoeffInterfaceE"></span><span id="SymEngine::SeriesCoeffInterface"></span><span class="target" id="classSymEngine_1_1SeriesCoeffInterface"></span><em class="property">class </em><code class="descname">SeriesCoeffInterface</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="Number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a><a class="headerlink" href="#_CPPv4N9SymEngine20SeriesCoeffInterfaceE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subclassed by <a class="reference internal" href="SeriesBase.html#classSymEngine_1_1SeriesBase"><span class="std std-ref">SymEngine::SeriesBase&lt; UExprDict, Expression, UnivariateSeries &gt;</span></a>, <a class="reference internal" href="SeriesBase.html#classSymEngine_1_1SeriesBase"><span class="std std-ref">SymEngine::SeriesBase&lt; Poly, Coeff, Series &gt;</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface8as_basicEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface8as_basicEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface8as_basicEv"></span><span id="SymEngine::SeriesCoeffInterface::as_basicC"></span><span class="target" id="classSymEngine_1_1SeriesCoeffInterface_1a314d5b049eb41a2da83d0d7d5872e7d1"></span><em class="property">virtual</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="descname">as_basic</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface8as_basicEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface7as_dictEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface7as_dictEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface7as_dictEv"></span><span id="SymEngine::SeriesCoeffInterface::as_dictC"></span><span class="target" id="classSymEngine_1_1SeriesCoeffInterface_1a27ac3d3197bcf5caf6f50bf302087132"></span><em class="property">virtual</em> umap_int_basic <code class="descname">as_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface7as_dictEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface9get_coeffEi">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface9get_coeffEi"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface9get_coeffEi"></span><span id="SymEngine::SeriesCoeffInterface::get_coeff__iC"></span><span class="target" id="classSymEngine_1_1SeriesCoeffInterface_1a78434dad13e73ddf1cacb862e2fcf1ed"></span><em class="property">virtual</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="descname">get_coeff</code><span class="sig-paren">(</span>int<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface9get_coeffEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface10get_degreeEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface10get_degreeEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface10get_degreeEv"></span><span id="SymEngine::SeriesCoeffInterface::get_degreeC"></span><span class="target" id="classSymEngine_1_1SeriesCoeffInterface_1a2f82a9945c76494929be92d6fa059ec3"></span><em class="property">virtual</em> unsigned <code class="descname">get_degree</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface10get_degreeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface7get_varEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface7get_varEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface7get_varEv"></span><span id="SymEngine::SeriesCoeffInterface::get_varC"></span><span class="target" id="classSymEngine_1_1SeriesCoeffInterface_1a1cf46ac4f5de806170bb84cfe10104c8"></span><em class="property">virtual</em> <em class="property">const</em> std::string &amp;<code class="descname">get_var</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface7get_varEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="Rational.html">Rational</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="SeriesBase.html">SeriesBase</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

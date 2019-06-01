@@ -1,0 +1,11 @@
+ACoth
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::ACoth
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

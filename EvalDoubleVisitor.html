@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>EvalDoubleVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="EvalRealDoubleVisitor" href="EvalRealDoubleVisitor.html" />
+    <link rel="prev" title="EvalComplexDoubleVisitor" href="EvalComplexDoubleVisitor.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>EvalDoubleVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="EvalComplexDoubleVisitor.html">EvalComplexDoubleVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="EvalRealDoubleVisitor.html">EvalRealDoubleVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="evaldoublevisitor">
+<h1>EvalDoubleVisitor<a class="headerlink" href="#evaldoublevisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4I00EN9SymEngine17EvalDoubleVisitorE">
+<span id="_CPPv3I00EN9SymEngine17EvalDoubleVisitorE"></span><span id="_CPPv2I00EN9SymEngine17EvalDoubleVisitorE"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor"></span>template&lt;typename <code class="descname">T</code>, typename <code class="descname">C</code>&gt;<br /><em class="property">class </em><code class="descname">EvalDoubleVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4I00EN9SymEngine17EvalDoubleVisitorE" title="SymEngine::EvalDoubleVisitor::C">C</a>&gt;<a class="headerlink" href="#_CPPv4I00EN9SymEngine17EvalDoubleVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor5applyERK5Basic">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor5applyERK5Basic"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor5applyERK5Basic"></span><span id="SymEngine::EvalDoubleVisitor::apply__BasicCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a79b9726ed5b3e995bbc00c4407171397"></span>T <code class="descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor5applyERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK7Integer">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK7Integer"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK7Integer"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__IntegerCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a0c9409cc198d22faba4c899c2fba8a50"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK8Rational">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK8Rational"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK8Rational"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__RationalCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a280afffe28072434e2a14cb608ef6854"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK10RealDouble">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK10RealDouble"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK10RealDouble"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__RealDoubleCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1abb4829e32372b94d791b302fa4fc9f04"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="RealDouble.html#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Add"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__AddCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1ab63ccf27af1c98addc54cd00467e765b"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Mul"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__MulCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1ac9a427846a34d3463fd75b9eb133fe69"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Pow"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__PowCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a98955bf87e4811a443a53bceda8b518f"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Sin">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Sin"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Sin"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__SinCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a9e213815e75b5d833ef82fbe98e9737e"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Sin.html#_CPPv4N9SymEngine3SinE" title="SymEngine::Sin">Sin</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Sin" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Cos">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Cos"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Cos"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__CosCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1addffcc749a03b8036ad4a516c5fbc9d6"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Cos.html#_CPPv4N9SymEngine3CosE" title="SymEngine::Cos">Cos</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Cos" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Tan">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Tan"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Tan"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__TanCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a13a332a8305b9c4cb7c67088f9b78245"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Tan.html#_CPPv4N9SymEngine3TanE" title="SymEngine::Tan">Tan</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Tan" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK6Symbol">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK6Symbol"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK6Symbol"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__SymbolCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a8947e1adb1f9b36f2c022ac45c8f8027"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a>&amp;<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK6Symbol" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Log">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Log"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Log"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__LogCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a3bbafef96f6f63a2e733ed46d6620ae6"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Log.html#_CPPv4N9SymEngine3LogE" title="SymEngine::Log">Log</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Log" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Cot">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Cot"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Cot"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__CotCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1aafbb58510a1f648b77b21e62c81d4aa5"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Cot.html#_CPPv4N9SymEngine3CotE" title="SymEngine::Cot">Cot</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Cot" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Csc">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Csc"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Csc"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__CscCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a77f5bc072125e3d42bfd10a4bfca7339"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Csc.html#_CPPv4N9SymEngine3CscE" title="SymEngine::Csc">Csc</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Csc" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Sec">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Sec"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Sec"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__SecCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1af649ca6ae0578d8b046c5de1fc6fac47"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Sec.html#_CPPv4N9SymEngine3SecE" title="SymEngine::Sec">Sec</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Sec" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ASin">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4ASin"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4ASin"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ASinCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a6974ad070b0c8791a44edf0b8cced325"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ASin.html#_CPPv4N9SymEngine4ASinE" title="SymEngine::ASin">ASin</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ASin" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ACos">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4ACos"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4ACos"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ACosCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1aa1961788adc7ed56613d8f9a9eb5dac8"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ACos.html#_CPPv4N9SymEngine4ACosE" title="SymEngine::ACos">ACos</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ACos" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ASec">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4ASec"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4ASec"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ASecCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1ab8746b10fed86daeeddd114484505321"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ASec.html#_CPPv4N9SymEngine4ASecE" title="SymEngine::ASec">ASec</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ASec" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ACsc">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4ACsc"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4ACsc"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ACscCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a3618429698e0ac0bc61c8dd3a076f91e"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ACsc.html#_CPPv4N9SymEngine4ACscE" title="SymEngine::ACsc">ACsc</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ACsc" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ATan">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4ATan"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4ATan"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ATanCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a3333f2253e5e92011a2f759e59130a9b"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ATan.html#_CPPv4N9SymEngine4ATanE" title="SymEngine::ATan">ATan</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ATan" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ACot">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4ACot"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4ACot"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ACotCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1ab9c327f179975a2915ba4e545fc3503b"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ACot.html#_CPPv4N9SymEngine4ACotE" title="SymEngine::ACot">ACot</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4ACot" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Sinh">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4Sinh"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4Sinh"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__SinhCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1ab9daea25beb2dfed9f2167bb9cc1c256"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Sinh.html#_CPPv4N9SymEngine4SinhE" title="SymEngine::Sinh">Sinh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Sinh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Csch">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4Csch"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4Csch"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__CschCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1aa5072ea660042a3bb110d2a2f4d1c3a0"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Csch.html#_CPPv4N9SymEngine4CschE" title="SymEngine::Csch">Csch</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Csch" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Cosh">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4Cosh"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4Cosh"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__CoshCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a91c482828495f9a5b5865f594fd0a450"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Cosh.html#_CPPv4N9SymEngine4CoshE" title="SymEngine::Cosh">Cosh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Cosh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Sech">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4Sech"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4Sech"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__SechCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a8d3786d27eb72d5c57e9b2a0fb869b62"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Sech.html#_CPPv4N9SymEngine4SechE" title="SymEngine::Sech">Sech</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Sech" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Tanh">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4Tanh"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4Tanh"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__TanhCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1aa231e0f2d513224c3036983e15107e5a"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Tanh.html#_CPPv4N9SymEngine4TanhE" title="SymEngine::Tanh">Tanh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Tanh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Coth">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK4Coth"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK4Coth"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__CothCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1acd2497c1ba601b39c18e4b5a4483df72"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Coth.html#_CPPv4N9SymEngine4CothE" title="SymEngine::Coth">Coth</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK4Coth" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ASinh">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5ASinh"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5ASinh"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ASinhCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1ad615cf260dab3bc5625fe93ebacccced"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ASinh.html#_CPPv4N9SymEngine5ASinhE" title="SymEngine::ASinh">ASinh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ASinh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ACsch">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5ACsch"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5ACsch"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ACschCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a22adde861d994fa5074f7f908d34c230"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ACsch.html#_CPPv4N9SymEngine5ACschE" title="SymEngine::ACsch">ACsch</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ACsch" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ACosh">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5ACosh"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5ACosh"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ACoshCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1aabe9f322b6370ae1cbc2736cf4f5825f"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ACosh.html#_CPPv4N9SymEngine5ACoshE" title="SymEngine::ACosh">ACosh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ACosh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ATanh">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5ATanh"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5ATanh"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ATanhCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a550ba690004955a9564191ec33f791bf"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ATanh.html#_CPPv4N9SymEngine5ATanhE" title="SymEngine::ATanh">ATanh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ATanh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ACoth">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5ACoth"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5ACoth"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ACothCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a0ef5fa4e4b0b5128c331bd24ef7f501b"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ACoth.html#_CPPv4N9SymEngine5ACothE" title="SymEngine::ACoth">ACoth</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ACoth" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ASech">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5ASech"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5ASech"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ASechCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a118c86f55d0c4fc72ec2ca7a522a34ab"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ASech.html#_CPPv4N9SymEngine5ASechE" title="SymEngine::ASech">ASech</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5ASech" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK8Constant">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK8Constant"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK8Constant"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__ConstantCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a0e7aa80ffe7c37dfeebff98ae398bc8e"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Constant.html#_CPPv4N9SymEngine8ConstantE" title="SymEngine::Constant">Constant</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK8Constant" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Abs">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK3Abs"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK3Abs"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__AbsCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a5fbef9e2dc70fb0b630d73dd75883e7f"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Abs.html#_CPPv4N9SymEngine3AbsE" title="SymEngine::Abs">Abs</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK3Abs" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK5Basic"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__BasicCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1aec113677a67eb29b5d86954295ed4c9c"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK13NumberWrapper">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK13NumberWrapper"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK13NumberWrapper"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__NumberWrapperCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a2f5b616078555640663a67df30b4f8e1"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="NumberWrapper.html#_CPPv4N9SymEngine13NumberWrapperE" title="SymEngine::NumberWrapper">NumberWrapper</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK13NumberWrapper" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK15FunctionWrapper">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor6bvisitERK15FunctionWrapper"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor6bvisitERK15FunctionWrapper"></span><span id="SymEngine::EvalDoubleVisitor::bvisit__FunctionWrapperCR"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1a672ce29d77fed7f2cba35817c3a2ed60"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="FunctionWrapper.html#_CPPv4N9SymEngine15FunctionWrapperE" title="SymEngine::FunctionWrapper">FunctionWrapper</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor6bvisitERK15FunctionWrapper" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine17EvalDoubleVisitor7result_E">
+<span id="_CPPv3N9SymEngine17EvalDoubleVisitor7result_E"></span><span id="_CPPv2N9SymEngine17EvalDoubleVisitor7result_E"></span><span id="SymEngine::EvalDoubleVisitor::result___T"></span><span class="target" id="classSymEngine_1_1EvalDoubleVisitor_1adff21f2562cfd4a972153ad790d205ca"></span>T <code class="descname">result_</code><a class="headerlink" href="#_CPPv4N9SymEngine17EvalDoubleVisitor7result_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="EvalComplexDoubleVisitor.html">EvalComplexDoubleVisitor</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="EvalRealDoubleVisitor.html">EvalRealDoubleVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

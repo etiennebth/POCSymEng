@@ -1,0 +1,11 @@
+MatrixBase
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::MatrixBase
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

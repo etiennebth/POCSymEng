@@ -1,0 +1,11 @@
+EvalRealDoubleVisitorFinal
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::EvalRealDoubleVisitorFinal
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

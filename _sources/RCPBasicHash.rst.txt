@@ -1,0 +1,11 @@
+RCPBasicHash
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::RCPBasicHash
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

@@ -1,0 +1,498 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>DenseMatrix &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="DiffImplementation" href="DiffImplementation.html" />
+    <link rel="prev" title="CSRMatrix" href="CSRMatrix.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>DenseMatrix</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="CSRMatrix.html">CSRMatrix</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="DiffImplementation.html">DiffImplementation</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="densematrix">
+<h1>DenseMatrix<a class="headerlink" href="#densematrix" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine11DenseMatrixE">
+<span id="_CPPv3N9SymEngine11DenseMatrixE"></span><span id="_CPPv2N9SymEngine11DenseMatrixE"></span><span id="SymEngine::DenseMatrix"></span><span class="target" id="classSymEngine_1_1DenseMatrix"></span><em class="property">class </em><code class="descname">DenseMatrix</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrixE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEv">
+<span id="_CPPv3N9SymEngine11DenseMatrix11DenseMatrixEv"></span><span id="_CPPv2N9SymEngine11DenseMatrix11DenseMatrixEv"></span><span id="SymEngine::DenseMatrix::DenseMatrix"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a379da1b77da25dadb46694dfd3b323cb"></span><code class="descname">DenseMatrix</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix11DenseMatrixERK11DenseMatrix">
+<span id="_CPPv3N9SymEngine11DenseMatrix11DenseMatrixERK11DenseMatrix"></span><span id="_CPPv2N9SymEngine11DenseMatrix11DenseMatrixERK11DenseMatrix"></span><span id="SymEngine::DenseMatrix::DenseMatrix__DenseMatrixCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1acc156bb87bf35154aabf63ce31ffc0ac"></span><code class="descname">DenseMatrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEv" title="SymEngine::DenseMatrix::DenseMatrix">DenseMatrix</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix11DenseMatrixERK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEjj">
+<span id="_CPPv3N9SymEngine11DenseMatrix11DenseMatrixEjj"></span><span id="_CPPv2N9SymEngine11DenseMatrix11DenseMatrixEjj"></span><span id="SymEngine::DenseMatrix::DenseMatrix__unsigned.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a256415bf6a498d19226671479981b919"></span><code class="descname">DenseMatrix</code><span class="sig-paren">(</span>unsigned <em>row</em>, unsigned <em>col</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEjjRK9vec_basic">
+<span id="_CPPv3N9SymEngine11DenseMatrix11DenseMatrixEjjRK9vec_basic"></span><span id="_CPPv2N9SymEngine11DenseMatrix11DenseMatrixEjjRK9vec_basic"></span><span id="SymEngine::DenseMatrix::DenseMatrix__unsigned.unsigned.vec_basicCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1adf3c934fa6bc1b5d843ab77ce10fc0c4"></span><code class="descname">DenseMatrix</code><span class="sig-paren">(</span>unsigned <em>row</em>, unsigned <em>col</em>, <em class="property">const</em> vec_basic &amp;<em>l</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix11DenseMatrixEjjRK9vec_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix11DenseMatrixERK9vec_basic">
+<span id="_CPPv3N9SymEngine11DenseMatrix11DenseMatrixERK9vec_basic"></span><span id="_CPPv2N9SymEngine11DenseMatrix11DenseMatrixERK9vec_basic"></span><span id="SymEngine::DenseMatrix::DenseMatrix__vec_basicCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ad3bad97c32f833301c45ef60bceaa935"></span><code class="descname">DenseMatrix</code><span class="sig-paren">(</span><em class="property">const</em> vec_basic &amp;<em>column_elements</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix11DenseMatrixERK9vec_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix6resizeEjj">
+<span id="_CPPv3N9SymEngine11DenseMatrix6resizeEjj"></span><span id="_CPPv2N9SymEngine11DenseMatrix6resizeEjj"></span><span id="SymEngine::DenseMatrix::resize__unsigned.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a422c8a4f7095cf51519a99af7e93c3ab"></span>void <code class="descname">resize</code><span class="sig-paren">(</span>unsigned <em>i</em>, unsigned <em>j</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix6resizeEjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix3getEjj">
+<span id="_CPPv3NK9SymEngine11DenseMatrix3getEjj"></span><span id="_CPPv2NK9SymEngine11DenseMatrix3getEjj"></span><span id="SymEngine::DenseMatrix::get__unsigned.unsignedC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a7ced9d4a28b76c34ea488e1586691dde"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="descname">get</code><span class="sig-paren">(</span>unsigned <em>i</em>, unsigned <em>j</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix3getEjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix3setEjjRK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine11DenseMatrix3setEjjRK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine11DenseMatrix3setEjjRK3RCPIK5BasicE"></span><span id="SymEngine::DenseMatrix::set__unsigned.unsigned.RCP:BasicC:CR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a32f86f047c069428603ad1a41ebfaf2b"></span>void <code class="descname">set</code><span class="sig-paren">(</span>unsigned <em>i</em>, unsigned <em>j</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>e</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix3setEjjRK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix12as_vec_basicEv">
+<span id="_CPPv3NK9SymEngine11DenseMatrix12as_vec_basicEv"></span><span id="_CPPv2NK9SymEngine11DenseMatrix12as_vec_basicEv"></span><span id="SymEngine::DenseMatrix::as_vec_basicC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a674ee859d2df4ac7b57baec90642a505"></span>vec_basic <code class="descname">as_vec_basic</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix12as_vec_basicEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix5nrowsEv">
+<span id="_CPPv3NK9SymEngine11DenseMatrix5nrowsEv"></span><span id="_CPPv2NK9SymEngine11DenseMatrix5nrowsEv"></span><span id="SymEngine::DenseMatrix::nrowsC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a4ee729b4f0db2127fb5129d01e814a18"></span><em class="property">virtual</em> unsigned <code class="descname">nrows</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix5nrowsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix5ncolsEv">
+<span id="_CPPv3NK9SymEngine11DenseMatrix5ncolsEv"></span><span id="_CPPv2NK9SymEngine11DenseMatrix5ncolsEv"></span><span id="SymEngine::DenseMatrix::ncolsC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1aff234c23977da4b8470b593b0fe6b608"></span><em class="property">virtual</em> unsigned <code class="descname">ncols</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix5ncolsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix4rankEv">
+<span id="_CPPv3NK9SymEngine11DenseMatrix4rankEv"></span><span id="_CPPv2NK9SymEngine11DenseMatrix4rankEv"></span><span id="SymEngine::DenseMatrix::rankC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a2263a8f6735009b4480bd91092f129d5"></span>unsigned <code class="descname">rank</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix4rankEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix3detEv">
+<span id="_CPPv3NK9SymEngine11DenseMatrix3detEv"></span><span id="_CPPv2NK9SymEngine11DenseMatrix3detEv"></span><span id="SymEngine::DenseMatrix::detC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a9c6fc136f38d6728c001ace1fe3fb33c"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="descname">det</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix3detEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix3invER10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix3invER10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix3invER10MatrixBase"></span><span id="SymEngine::DenseMatrix::inv__MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a0e524bcc21bfacb1b1b4c25a0d3e260e"></span>void <code class="descname">inv</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix3invER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix10add_matrixERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix10add_matrixERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix10add_matrixERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::DenseMatrix::add_matrix__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a589e38dd5e0cae2e3de2cc0c87d111b4"></span>void <code class="descname">add_matrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>other</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix10add_matrixERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix10mul_matrixERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix10mul_matrixERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix10mul_matrixERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::DenseMatrix::mul_matrix__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a0d01e5ba3ad5b2a55ba0516fc0087ffd"></span>void <code class="descname">mul_matrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>other</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix10mul_matrixERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="SymEngine::DenseMatrix::add_scalar__RCP:BasicC:CR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1af2215a9e67c786633d4665cc1b545bb8"></span>void <code class="descname">add_scalar</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>k</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="SymEngine::DenseMatrix::mul_scalar__RCP:BasicC:CR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a310f3beed71678940550731b320dbfc8"></span>void <code class="descname">mul_scalar</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>k</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix9transposeER10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix9transposeER10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix9transposeER10MatrixBase"></span><span id="SymEngine::DenseMatrix::transpose__MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a9db8f2e8e6ec2be8a6122d4226bc42fd"></span>void <code class="descname">transpose</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix9transposeER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix9submatrixER10MatrixBasejjjjjj">
+<span id="_CPPv3NK9SymEngine11DenseMatrix9submatrixER10MatrixBasejjjjjj"></span><span id="_CPPv2NK9SymEngine11DenseMatrix9submatrixER10MatrixBasejjjjjj"></span><span id="SymEngine::DenseMatrix::submatrix__MatrixBaseR.unsigned.unsigned.unsigned.unsigned.unsigned.unsignedC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a17845e28b4e46a20c2332afb4dff4aa5"></span>void <code class="descname">submatrix</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em>, unsigned <em>row_start</em>, unsigned <em>col_start</em>, unsigned <em>row_end</em>, unsigned <em>col_end</em>, unsigned <em>row_step</em> = 1, unsigned <em>col_step</em> = 1<span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix9submatrixER10MatrixBasejjjjjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix2LUER10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix2LUER10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix2LUER10MatrixBaseR10MatrixBase"></span><span id="SymEngine::DenseMatrix::LU__MatrixBaseR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ade39eba481e79a6ed82f2a57c85d8e5c"></span>void <code class="descname">LU</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>U</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix2LUER10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix3LDLER10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix3LDLER10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix3LDLER10MatrixBaseR10MatrixBase"></span><span id="SymEngine::DenseMatrix::LDL__MatrixBaseR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a06ba6c934f37d476c6bf33ac45c4a49c"></span>void <code class="descname">LDL</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>D</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix3LDLER10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix8LU_solveERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix8LU_solveERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix8LU_solveERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::DenseMatrix::LU_solve__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ad6cf2f1b5f8d0a172f2b30938fa1fd24"></span>void <code class="descname">LU_solve</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>b</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>x</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix8LU_solveERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix4FFLUER10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix4FFLUER10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix4FFLUER10MatrixBase"></span><span id="SymEngine::DenseMatrix::FFLU__MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ab285ed7ba1395d3537e2ab37581c8ca5"></span>void <code class="descname">FFLU</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>LU</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix4FFLUER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4NK9SymEngine11DenseMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine11DenseMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine11DenseMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase"></span><span id="SymEngine::DenseMatrix::FFLDU__MatrixBaseR.MatrixBaseR.MatrixBaseRC"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1aac859770bccdeba25483cc694c0462ea"></span>void <code class="descname">FFLDU</code><span class="sig-paren">(</span><a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>D</em>, <a class="reference internal" href="MatrixBase.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>U</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine11DenseMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix8row_joinERK11DenseMatrix">
+<span id="_CPPv3N9SymEngine11DenseMatrix8row_joinERK11DenseMatrix"></span><span id="_CPPv2N9SymEngine11DenseMatrix8row_joinERK11DenseMatrix"></span><span id="SymEngine::DenseMatrix::row_join__DenseMatrixCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ab1429206052d67050c7ef5079254d3a6"></span>void <code class="descname">row_join</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix8row_joinERK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix8col_joinERK11DenseMatrix">
+<span id="_CPPv3N9SymEngine11DenseMatrix8col_joinERK11DenseMatrix"></span><span id="_CPPv2N9SymEngine11DenseMatrix8col_joinERK11DenseMatrix"></span><span id="SymEngine::DenseMatrix::col_join__DenseMatrixCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a78ae28a154d161df05b0dcc1433229b2"></span>void <code class="descname">col_join</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix8col_joinERK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix10row_insertERK11DenseMatrixj">
+<span id="_CPPv3N9SymEngine11DenseMatrix10row_insertERK11DenseMatrixj"></span><span id="_CPPv2N9SymEngine11DenseMatrix10row_insertERK11DenseMatrixj"></span><span id="SymEngine::DenseMatrix::row_insert__DenseMatrixCR.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ad3e83bd4ba900ec1122176b5248b5bfe"></span>void <code class="descname">row_insert</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>B</em>, unsigned <em>pos</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix10row_insertERK11DenseMatrixj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix10col_insertERK11DenseMatrixj">
+<span id="_CPPv3N9SymEngine11DenseMatrix10col_insertERK11DenseMatrixj"></span><span id="_CPPv2N9SymEngine11DenseMatrix10col_insertERK11DenseMatrixj"></span><span id="SymEngine::DenseMatrix::col_insert__DenseMatrixCR.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1abd26823fa0516d0476a5f1951b063220"></span>void <code class="descname">col_insert</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>B</em>, unsigned <em>pos</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix10col_insertERK11DenseMatrixj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix7row_delEj">
+<span id="_CPPv3N9SymEngine11DenseMatrix7row_delEj"></span><span id="_CPPv2N9SymEngine11DenseMatrix7row_delEj"></span><span id="SymEngine::DenseMatrix::row_del__unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ac166a70ba5defe9be9134e83044ebc5c"></span>void <code class="descname">row_del</code><span class="sig-paren">(</span>unsigned <em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix7row_delEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11DenseMatrix7col_delEj">
+<span id="_CPPv3N9SymEngine11DenseMatrix7col_delEj"></span><span id="_CPPv2N9SymEngine11DenseMatrix7col_delEj"></span><span id="SymEngine::DenseMatrix::col_del__unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1adef2b450f92c794bf54014ac822f5c21"></span>void <code class="descname">col_del</code><span class="sig-paren">(</span>unsigned <em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix7col_delEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt>
+<span class="target" id="classSymEngine_1_1DenseMatrix_1a4a8559f85c15b2ab58516076434b07b0"></span><code class="descname">friend SymEngine::DenseMatrix::CSRMatrix</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Private Members</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine11DenseMatrix2m_E">
+<span id="_CPPv3N9SymEngine11DenseMatrix2m_E"></span><span id="_CPPv2N9SymEngine11DenseMatrix2m_E"></span><span id="SymEngine::DenseMatrix::m___vec_basic"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1aba92767b33d80b13037a69b5d57387fd"></span>vec_basic <code class="descname">m_</code><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix2m_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv4N9SymEngine11DenseMatrix4row_E">
+<span id="_CPPv3N9SymEngine11DenseMatrix4row_E"></span><span id="_CPPv2N9SymEngine11DenseMatrix4row_E"></span><span id="SymEngine::DenseMatrix::row___unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ac8f03870ec6a7133b8b0acc8d7513ec2"></span>unsigned <code class="descname">row_</code><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix4row_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv4N9SymEngine11DenseMatrix4col_E">
+<span id="_CPPv3N9SymEngine11DenseMatrix4col_E"></span><span id="_CPPv2N9SymEngine11DenseMatrix4col_E"></span><span id="SymEngine::DenseMatrix::col___unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a7c604d0c2d4d91bd8043788cd4a5d430"></span>unsigned <code class="descname">col_</code><a class="headerlink" href="#_CPPv4N9SymEngine11DenseMatrix4col_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Friends</p>
+<dl class="function">
+<dt id="_CPPv48jacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv38jacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv28jacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="jacobian__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a7be4b63203b48b6aa0c5d0deb10a059c"></span>void <code class="descname">jacobian</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>x</em>, DenseMatrix &amp;<em>result</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48jacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv49sjacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv39sjacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv29sjacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="sjacobian__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a226aac1e3810963097cf8b88ddd0b66b"></span>void <code class="descname">sjacobian</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>x</em>, DenseMatrix &amp;<em>result</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49sjacobianRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv44diffRK11DenseMatrixRK3RCPIK6SymbolER11DenseMatrix">
+<span id="_CPPv34diffRK11DenseMatrixRK3RCPIK6SymbolER11DenseMatrix"></span><span id="_CPPv24diffRK11DenseMatrixRK3RCPIK6SymbolER11DenseMatrix"></span><span id="diff__DenseMatrixCR.RCP:SymbolC:CR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1addb05392634d933446438e5819f39ad5"></span>void <code class="descname">diff</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> Symbol&gt; &amp;<em>x</em>, DenseMatrix &amp;<em>result</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv44diffRK11DenseMatrixRK3RCPIK6SymbolER11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv45sdiffRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix">
+<span id="_CPPv35sdiffRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix"></span><span id="_CPPv25sdiffRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix"></span><span id="sdiff__DenseMatrixCR.RCP:BasicC:CR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a358082451531b70a02f785752adffb25"></span>void <code class="descname">sdiff</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> Basic&gt; &amp;<em>x</em>, DenseMatrix &amp;<em>result</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv45sdiffRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv415add_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv315add_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv215add_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="add_dense_dense__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a299f2e41de206c8c7b6bd0fa3ce04e58"></span>void <code class="descname">add_dense_dense</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>B</em>, DenseMatrix &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415add_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv416add_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix">
+<span id="_CPPv316add_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix"></span><span id="_CPPv216add_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix"></span><span id="add_dense_scalar__DenseMatrixCR.RCP:BasicC:CR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a8a66337f19706f0f6aeb2d8c54e6e4f1"></span>void <code class="descname">add_dense_scalar</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> Basic&gt; &amp;<em>k</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416add_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv415mul_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv315mul_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv215mul_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="mul_dense_dense__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a1057d0815423b8d828cd3e6d9ffbdf22"></span>void <code class="descname">mul_dense_dense</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>B</em>, DenseMatrix &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415mul_dense_denseRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv416mul_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix">
+<span id="_CPPv316mul_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix"></span><span id="_CPPv216mul_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix"></span><span id="mul_dense_scalar__DenseMatrixCR.RCP:BasicC:CR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a1b7c2f57ac4b79c91e5775b1131483d9"></span>void <code class="descname">mul_dense_scalar</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> Basic&gt; &amp;<em>k</em>, DenseMatrix &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416mul_dense_scalarRK11DenseMatrixRK3RCPIK5BasicER11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv415transpose_denseRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv315transpose_denseRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv215transpose_denseRK11DenseMatrixR11DenseMatrix"></span><span id="transpose_dense__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a4861002312265b652dbec8244f6d8cc7"></span>void <code class="descname">transpose_dense</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415transpose_denseRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv415submatrix_denseRK11DenseMatrixR11DenseMatrixjjjjjj">
+<span id="_CPPv315submatrix_denseRK11DenseMatrixR11DenseMatrixjjjjjj"></span><span id="_CPPv215submatrix_denseRK11DenseMatrixR11DenseMatrixjjjjjj"></span><span id="submatrix_dense__DenseMatrixCR.DenseMatrixR.unsigned.unsigned.unsigned.unsigned.unsigned.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a8faa7bb3ad1ea5955376930dbd6dbbcc"></span>void <code class="descname">submatrix_dense</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em>, unsigned <em>row_start</em>, unsigned <em>col_start</em>, unsigned <em>row_end</em>, unsigned <em>col_end</em>, unsigned <em>row_step</em>, unsigned <em>col_step</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415submatrix_denseRK11DenseMatrixR11DenseMatrixjjjjjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv418row_exchange_denseR11DenseMatrixjj">
+<span id="_CPPv318row_exchange_denseR11DenseMatrixjj"></span><span id="_CPPv218row_exchange_denseR11DenseMatrixjj"></span><span id="row_exchange_dense__DenseMatrixR.unsigned.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ac6ce9bc383d2ca837d29b51c5c5807bd"></span>void <code class="descname">row_exchange_dense</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, unsigned <em>i</em>, unsigned <em>j</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418row_exchange_denseR11DenseMatrixjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv420row_mul_scalar_denseR11DenseMatrixjR3RCPIK5BasicE">
+<span id="_CPPv320row_mul_scalar_denseR11DenseMatrixjR3RCPIK5BasicE"></span><span id="_CPPv220row_mul_scalar_denseR11DenseMatrixjR3RCPIK5BasicE"></span><span id="row_mul_scalar_dense__DenseMatrixR.unsigned.RCP:BasicC:R"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a9a29ac8761b7858b5deba2a2b304ef28"></span>void <code class="descname">row_mul_scalar_dense</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, unsigned <em>i</em>, RCP&lt;<em class="property">const</em> Basic&gt; &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420row_mul_scalar_denseR11DenseMatrixjR3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv417row_add_row_denseR11DenseMatrixjjR3RCPIK5BasicE">
+<span id="_CPPv317row_add_row_denseR11DenseMatrixjjR3RCPIK5BasicE"></span><span id="_CPPv217row_add_row_denseR11DenseMatrixjjR3RCPIK5BasicE"></span><span id="row_add_row_dense__DenseMatrixR.unsigned.unsigned.RCP:BasicC:R"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a183ab0eba9dc97de48e25e469c51fcfa"></span>void <code class="descname">row_add_row_dense</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, unsigned <em>i</em>, unsigned <em>j</em>, RCP&lt;<em class="property">const</em> Basic&gt; &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417row_add_row_denseR11DenseMatrixjjR3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv410permuteFwdR11DenseMatrixR11permutelist">
+<span id="_CPPv310permuteFwdR11DenseMatrixR11permutelist"></span><span id="_CPPv210permuteFwdR11DenseMatrixR11permutelist"></span><span id="permuteFwd__DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ad6258a68d949c0dac842e552269220e7"></span>void <code class="descname">permuteFwd</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, permutelist &amp;<em>pl</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410permuteFwdR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv421column_exchange_denseR11DenseMatrixjj">
+<span id="_CPPv321column_exchange_denseR11DenseMatrixjj"></span><span id="_CPPv221column_exchange_denseR11DenseMatrixjj"></span><span id="column_exchange_dense__DenseMatrixR.unsigned.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ae90bb4132cf6bbee24f01535424e073f"></span>void <code class="descname">column_exchange_dense</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, unsigned <em>i</em>, unsigned <em>j</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv421column_exchange_denseR11DenseMatrixjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv428pivoted_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist">
+<span id="_CPPv328pivoted_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="_CPPv228pivoted_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="pivoted_gaussian_elimination__DenseMatrixCR.DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a4e11761829a2c36ffcee29e9d37f6dd3"></span>void <code class="descname">pivoted_gaussian_elimination</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em>, permutelist &amp;<em>pivotlist</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv428pivoted_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv434fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv334fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv234fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrix"></span><span id="fraction_free_gaussian_elimination__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a4857a276dca867670233459e772ca406"></span>void <code class="descname">fraction_free_gaussian_elimination</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv434fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv442pivoted_fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist">
+<span id="_CPPv342pivoted_fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="_CPPv242pivoted_fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="pivoted_fraction_free_gaussian_elimination__DenseMatrixCR.DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1aeb13b49ba85b3fe47a7d070f3a0dcb02"></span>void <code class="descname">pivoted_fraction_free_gaussian_elimination</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em>, permutelist &amp;<em>pivotlist</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv442pivoted_fraction_free_gaussian_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv432pivoted_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist">
+<span id="_CPPv332pivoted_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="_CPPv232pivoted_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="pivoted_gauss_jordan_elimination__DenseMatrixCR.DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1adfe4521bf64d599f7ef10fad34313159"></span>void <code class="descname">pivoted_gauss_jordan_elimination</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em>, permutelist &amp;<em>pivotlist</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv432pivoted_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv438fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv338fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv238fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrix"></span><span id="fraction_free_gauss_jordan_elimination__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a2ae1fc16ff80aadd7a748abff8f75fc1"></span>void <code class="descname">fraction_free_gauss_jordan_elimination</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv438fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv446pivoted_fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist">
+<span id="_CPPv346pivoted_fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="_CPPv246pivoted_fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="pivoted_fraction_free_gauss_jordan_elimination__DenseMatrixCR.DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a95a1f6d0d0aee61a37105966fa2b6cf1"></span>void <code class="descname">pivoted_fraction_free_gauss_jordan_elimination</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em>, permutelist &amp;<em>pivotlist</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv446pivoted_fraction_free_gauss_jordan_eliminationRK11DenseMatrixR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv45pivotR11DenseMatrixjj">
+<span id="_CPPv35pivotR11DenseMatrixjj"></span><span id="_CPPv25pivotR11DenseMatrixjj"></span><span id="pivot__DenseMatrixR.unsigned.unsigned"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a7f7c8060f20ebd3228ab1ae4205d9911"></span>unsigned <code class="descname">pivot</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>B</em>, unsigned <em>r</em>, unsigned <em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv45pivotR11DenseMatrixjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv424reduced_row_echelon_formRK11DenseMatrixR11DenseMatrixR8vec_uintb">
+<span id="_CPPv324reduced_row_echelon_formRK11DenseMatrixR11DenseMatrixR8vec_uintb"></span><span id="_CPPv224reduced_row_echelon_formRK11DenseMatrixR11DenseMatrixR8vec_uintb"></span><span id="reduced_row_echelon_form__DenseMatrixCR.DenseMatrixR.vec_uintR.b"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a01f35f55f1c0a512dbef999898d0812f"></span>void <code class="descname">reduced_row_echelon_form</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em>, vec_uint &amp;<em>pivot_cols</em>, bool <em>normalize_last</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv424reduced_row_echelon_formRK11DenseMatrixR11DenseMatrixR8vec_uintb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv414diagonal_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv314diagonal_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv214diagonal_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="diagonal_solve__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a0fe58956ac14f8cf8230e99e8052f6d7"></span>void <code class="descname">diagonal_solve</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>b</em>, DenseMatrix &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv414diagonal_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv417back_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv317back_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv217back_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="back_substitution__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ae512c7880c34c9ccc7d425f44bd53002"></span>void <code class="descname">back_substitution</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>U</em>, <em class="property">const</em> DenseMatrix &amp;<em>b</em>, DenseMatrix &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417back_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv420forward_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv320forward_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv220forward_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="forward_substitution__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a9dc5bfcf5fb3870fbec8837390eec119"></span>void <code class="descname">forward_substitution</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>b</em>, DenseMatrix &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420forward_substitutionRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv440fraction_free_gaussian_elimination_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv340fraction_free_gaussian_elimination_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv240fraction_free_gaussian_elimination_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="fraction_free_gaussian_elimination_solve__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a9f6b643970a3584416ed447fe5c21ebc"></span>void <code class="descname">fraction_free_gaussian_elimination_solve</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>b</em>, DenseMatrix &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv440fraction_free_gaussian_elimination_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv432fraction_free_gauss_jordan_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv332fraction_free_gauss_jordan_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv232fraction_free_gauss_jordan_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="fraction_free_gauss_jordan_solve__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a23b5d46c59969eb825e81d20daaf1ca8"></span>void <code class="descname">fraction_free_gauss_jordan_solve</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>b</em>, DenseMatrix &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv432fraction_free_gauss_jordan_solveRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv416fraction_free_LURK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv316fraction_free_LURK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv216fraction_free_LURK11DenseMatrixR11DenseMatrix"></span><span id="fraction_free_LU__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ab591d6e3bf0ddfcd50c6cb728f23ad0f"></span>void <code class="descname">fraction_free_LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>LU</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416fraction_free_LURK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv42LURK11DenseMatrixR11DenseMatrixR11DenseMatrix">
+<span id="_CPPv32LURK11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="_CPPv22LURK11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="LU__DenseMatrixCR.DenseMatrixR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a27e5c38928f6b20da126a909290f5de6"></span>void <code class="descname">LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>L</em>, DenseMatrix &amp;<em>U</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv42LURK11DenseMatrixR11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv410pivoted_LURK11DenseMatrixR11DenseMatrixR11permutelist">
+<span id="_CPPv310pivoted_LURK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="_CPPv210pivoted_LURK11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="pivoted_LU__DenseMatrixCR.DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a557b384f0e0e7e4be4f73aa04e76129c"></span>void <code class="descname">pivoted_LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>LU</em>, permutelist &amp;<em>pl</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410pivoted_LURK11DenseMatrixR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv410pivoted_LURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11permutelist">
+<span id="_CPPv310pivoted_LURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="_CPPv210pivoted_LURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11permutelist"></span><span id="pivoted_LU__DenseMatrixCR.DenseMatrixR.DenseMatrixR.permutelistR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ada9ec56ef325a01dfd40c5af078c821c"></span>void <code class="descname">pivoted_LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>L</em>, DenseMatrix &amp;<em>U</em>, permutelist &amp;<em>pl</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410pivoted_LURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11permutelist" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv417fraction_free_LDURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11DenseMatrix">
+<span id="_CPPv317fraction_free_LDURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="_CPPv217fraction_free_LDURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="fraction_free_LDU__DenseMatrixCR.DenseMatrixR.DenseMatrixR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a3248bc5806986820cdeaef08dbed453f"></span>void <code class="descname">fraction_free_LDU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>L</em>, DenseMatrix &amp;<em>D</em>, DenseMatrix &amp;<em>U</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417fraction_free_LDURK11DenseMatrixR11DenseMatrixR11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv42QRRK11DenseMatrixR11DenseMatrixR11DenseMatrix">
+<span id="_CPPv32QRRK11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="_CPPv22QRRK11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="QR__DenseMatrixCR.DenseMatrixR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a6f35d46d81f79b1cd86c50d2d3be7217"></span>void <code class="descname">QR</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>Q</em>, DenseMatrix &amp;<em>R</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv42QRRK11DenseMatrixR11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv43LDLRK11DenseMatrixR11DenseMatrixR11DenseMatrix">
+<span id="_CPPv33LDLRK11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="_CPPv23LDLRK11DenseMatrixR11DenseMatrixR11DenseMatrix"></span><span id="LDL__DenseMatrixCR.DenseMatrixR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a4eab0c82094c571612537296df92de3e"></span>void <code class="descname">LDL</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>L</em>, DenseMatrix &amp;<em>D</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv43LDLRK11DenseMatrixR11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv48choleskyRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv38choleskyRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv28choleskyRK11DenseMatrixR11DenseMatrix"></span><span id="cholesky__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a91e8a0a2f12354946bb0b8ffa8ac4d84"></span>void <code class="descname">cholesky</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>L</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48choleskyRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv418is_symmetric_denseRK11DenseMatrix">
+<span id="_CPPv318is_symmetric_denseRK11DenseMatrix"></span><span id="_CPPv218is_symmetric_denseRK11DenseMatrix"></span><span id="is_symmetric_dense__DenseMatrixCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1abfbc5afba74f05f67007f97dc780f768"></span>bool <code class="descname">is_symmetric_dense</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418is_symmetric_denseRK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv410det_bareisRK11DenseMatrix">
+<span id="_CPPv310det_bareisRK11DenseMatrix"></span><span id="_CPPv210det_bareisRK11DenseMatrix"></span><span id="det_bareis__DenseMatrixCR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a46de0b9bc08b3eac89f43e75b423a2d2"></span>RCP&lt;<em class="property">const</em> Basic&gt; <code class="descname">det_bareis</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410det_bareisRK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv49berkowitzRK11DenseMatrixRNSt6vectorI11DenseMatrixEE">
+<span id="_CPPv39berkowitzRK11DenseMatrixRNSt6vectorI11DenseMatrixEE"></span><span id="_CPPv29berkowitzRK11DenseMatrixRNSt6vectorI11DenseMatrixEE"></span><span id="berkowitz__DenseMatrixCR.std::vector:DenseMatrix:R"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a6bc805f48c53be083bcdcf20dd919a00"></span>void <code class="descname">berkowitz</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, std::vector&lt;DenseMatrix&gt; &amp;<em>polys</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49berkowitzRK11DenseMatrixRNSt6vectorI11DenseMatrixEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv424inverse_fraction_free_LURK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv324inverse_fraction_free_LURK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv224inverse_fraction_free_LURK11DenseMatrixR11DenseMatrix"></span><span id="inverse_fraction_free_LU__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a61e7eb1f2af6c04fe1755664d1576143"></span>void <code class="descname">inverse_fraction_free_LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv424inverse_fraction_free_LURK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv410inverse_LURK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv310inverse_LURK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv210inverse_LURK11DenseMatrixR11DenseMatrix"></span><span id="inverse_LU__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ac849246f1e1134fdc2d1f88a694b2dd6"></span>void <code class="descname">inverse_LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410inverse_LURK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv418inverse_pivoted_LURK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv318inverse_pivoted_LURK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv218inverse_pivoted_LURK11DenseMatrixR11DenseMatrix"></span><span id="inverse_pivoted_LU__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a879916870a1102d7899db666a055386e"></span>void <code class="descname">inverse_pivoted_LU</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418inverse_pivoted_LURK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv420inverse_gauss_jordanRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv320inverse_gauss_jordanRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv220inverse_gauss_jordanRK11DenseMatrixR11DenseMatrix"></span><span id="inverse_gauss_jordan__DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a2244b115d52df939dbbb05248340a604"></span>void <code class="descname">inverse_gauss_jordan</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, DenseMatrix &amp;<em>B</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420inverse_gauss_jordanRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv43dotRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv33dotRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv23dotRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="dot__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a8de2d1e8280e02c884dc57ec9b3507f0"></span>void <code class="descname">dot</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>B</em>, DenseMatrix &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv43dotRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv45crossRK11DenseMatrixRK11DenseMatrixR11DenseMatrix">
+<span id="_CPPv35crossRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="_CPPv25crossRK11DenseMatrixRK11DenseMatrixR11DenseMatrix"></span><span id="cross__DenseMatrixCR.DenseMatrixCR.DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a39d3e339fae35261e9e9114037ce3277"></span>void <code class="descname">cross</code><span class="sig-paren">(</span><em class="property">const</em> DenseMatrix &amp;<em>A</em>, <em class="property">const</em> DenseMatrix &amp;<em>B</em>, DenseMatrix &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv45crossRK11DenseMatrixRK11DenseMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv43eyeR11DenseMatrixi">
+<span id="_CPPv33eyeR11DenseMatrixi"></span><span id="_CPPv23eyeR11DenseMatrixi"></span><span id="eye__DenseMatrixR.i"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a20fa191cf846ad517b7950f5c98f2790"></span>void <code class="descname">eye</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, int <em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv43eyeR11DenseMatrixi" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv44diagR11DenseMatrixR9vec_basici">
+<span id="_CPPv34diagR11DenseMatrixR9vec_basici"></span><span id="_CPPv24diagR11DenseMatrixR9vec_basici"></span><span id="diag__DenseMatrixR.vec_basicR.i"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a5c211880533eba1159e62be49ff5d1b9"></span>void <code class="descname">diag</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em>, vec_basic &amp;<em>v</em>, int <em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv44diagR11DenseMatrixR9vec_basici" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv44onesR11DenseMatrix">
+<span id="_CPPv34onesR11DenseMatrix"></span><span id="_CPPv24onesR11DenseMatrix"></span><span id="ones__DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1ab61c4f7ddaa232d48f7ff7f192920f92"></span>void <code class="descname">ones</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv44onesR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv45zerosR11DenseMatrix">
+<span id="_CPPv35zerosR11DenseMatrix"></span><span id="_CPPv25zerosR11DenseMatrix"></span><span id="zeros__DenseMatrixR"></span><span class="target" id="classSymEngine_1_1DenseMatrix_1a61223f6daef5551f3c1c7da808eead64"></span>void <code class="descname">zeros</code><span class="sig-paren">(</span>DenseMatrix &amp;<em>A</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv45zerosR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="CSRMatrix.html">CSRMatrix</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="DiffImplementation.html">DiffImplementation</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

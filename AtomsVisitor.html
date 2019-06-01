@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>AtomsVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="CountOpsVisitor" href="CountOpsVisitor.html" />
+    <link rel="prev" title="is_base_of_multiple" href="is_base_of_multiple.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>AtomsVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="is_base_of_multiple.html">is_base_of_multiple</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="CountOpsVisitor.html">CountOpsVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="atomsvisitor">
+<h1>AtomsVisitor<a class="headerlink" href="#atomsvisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4IDpEN9SymEngine12AtomsVisitorE">
+<span id="_CPPv3IDpEN9SymEngine12AtomsVisitorE"></span><span id="_CPPv2IDpEN9SymEngine12AtomsVisitorE"></span><span class="target" id="classSymEngine_1_1AtomsVisitor"></span>template&lt;typename ...<code class="descname">Args</code>&gt;<br /><em class="property">class </em><code class="descname">AtomsVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4IDpEN9SymEngine12AtomsVisitorE" title="SymEngine::AtomsVisitor">AtomsVisitor</a>&lt;<a class="reference internal" href="#_CPPv4IDpEN9SymEngine12AtomsVisitorE" title="SymEngine::AtomsVisitor::Args">Args</a>...&gt;&gt;<a class="headerlink" href="#_CPPv4IDpEN9SymEngine12AtomsVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4I00EN9SymEngine12AtomsVisitor6bvisitEvRK1T">
+<span id="_CPPv3I00EN9SymEngine12AtomsVisitor6bvisitERK1T"></span><span id="_CPPv2I00EN9SymEngine12AtomsVisitor6bvisitERK1T"></span><span class="target" id="classSymEngine_1_1AtomsVisitor_1ac9749ee1dbb065006b488ee7761941ab"></span>template&lt;typename <code class="descname">T</code>, typename = enable_if_t&lt;is_base_of_multiple&lt;<a class="reference internal" href="#_CPPv4I00EN9SymEngine12AtomsVisitor6bvisitEvRK1T" title="SymEngine::AtomsVisitor::bvisit::T">T</a>, Args...&gt;::value&gt;&gt;<br />void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I00EN9SymEngine12AtomsVisitor6bvisitEvRK1T" title="SymEngine::AtomsVisitor::bvisit::T">T</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I00EN9SymEngine12AtomsVisitor6bvisitEvRK1T" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine12AtomsVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine12AtomsVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine12AtomsVisitor6bvisitERK5Basic"></span><span id="SymEngine::AtomsVisitor::bvisit__BasicCR"></span><span class="target" id="classSymEngine_1_1AtomsVisitor_1aea9de95e56684947446c0ec51d3a3168"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12AtomsVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine12AtomsVisitor5applyERK5Basic">
+<span id="_CPPv3N9SymEngine12AtomsVisitor5applyERK5Basic"></span><span id="_CPPv2N9SymEngine12AtomsVisitor5applyERK5Basic"></span><span id="SymEngine::AtomsVisitor::apply__BasicCR"></span><span class="target" id="classSymEngine_1_1AtomsVisitor_1a51a80df914e86f06beb88c77723b7b9d"></span>set_basic <code class="descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12AtomsVisitor5applyERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine12AtomsVisitor1sE">
+<span id="_CPPv3N9SymEngine12AtomsVisitor1sE"></span><span id="_CPPv2N9SymEngine12AtomsVisitor1sE"></span><span id="SymEngine::AtomsVisitor::s__set_basic"></span><span class="target" id="classSymEngine_1_1AtomsVisitor_1a8007d88c679b50ddbbed2be67e9fd20c"></span>set_basic <code class="descname">s</code><a class="headerlink" href="#_CPPv4N9SymEngine12AtomsVisitor1sE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv4N9SymEngine12AtomsVisitor7visitedE">
+<span id="_CPPv3N9SymEngine12AtomsVisitor7visitedE"></span><span id="_CPPv2N9SymEngine12AtomsVisitor7visitedE"></span><span id="SymEngine::AtomsVisitor::visited__uset_basic"></span><span class="target" id="classSymEngine_1_1AtomsVisitor_1aed0e2e8863fef8c821718f533289d378"></span>uset_basic <code class="descname">visited</code><a class="headerlink" href="#_CPPv4N9SymEngine12AtomsVisitor7visitedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="is_base_of_multiple.html">is_base_of_multiple</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="CountOpsVisitor.html">CountOpsVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

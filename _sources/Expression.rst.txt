@@ -1,0 +1,11 @@
+Expression
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Expression
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

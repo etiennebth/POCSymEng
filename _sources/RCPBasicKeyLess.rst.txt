@@ -1,0 +1,11 @@
+RCPBasicKeyLess
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::RCPBasicKeyLess
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

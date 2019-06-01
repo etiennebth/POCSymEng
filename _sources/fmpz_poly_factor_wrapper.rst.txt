@@ -1,0 +1,11 @@
+fmpz_poly_factor_wrapper
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::fmpz_poly_factor_wrapper
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

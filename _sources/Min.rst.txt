@@ -1,0 +1,11 @@
+Min
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Min
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>EvalVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ExpandVisitor" href="ExpandVisitor.html" />
+    <link rel="prev" title="EvaluateRealDouble" href="EvaluateRealDouble.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>EvalVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="EvaluateRealDouble.html">EvaluateRealDouble</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="ExpandVisitor.html">ExpandVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="evalvisitor">
+<h1>EvalVisitor<a class="headerlink" href="#evalvisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine11EvalVisitorE">
+<span id="_CPPv3N9SymEngine11EvalVisitorE"></span><span id="_CPPv2N9SymEngine11EvalVisitorE"></span><span id="SymEngine::EvalVisitor"></span><span class="target" id="classSymEngine_1_1EvalVisitor"></span><em class="property">class </em><code class="descname">EvalVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine11EvalVisitorE" title="SymEngine::EvalVisitor">EvalVisitor</a>, <a class="reference internal" href="TransformVisitor.html#_CPPv4N9SymEngine16TransformVisitorE" title="SymEngine::TransformVisitor">TransformVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11EvalVisitor11EvalVisitorEm">
+<span id="_CPPv3N9SymEngine11EvalVisitor11EvalVisitorEm"></span><span id="_CPPv2N9SymEngine11EvalVisitor11EvalVisitorEm"></span><span id="SymEngine::EvalVisitor::EvalVisitor__unsigned-l"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1abac91cb6d1ab8816dea5ca1a926d2c6b"></span><code class="descname">EvalVisitor</code><span class="sig-paren">(</span>unsigned long <em>bits</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor11EvalVisitorEm" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11EvalVisitor6bvisitERK6Number">
+<span id="_CPPv3N9SymEngine11EvalVisitor6bvisitERK6Number"></span><span id="_CPPv2N9SymEngine11EvalVisitor6bvisitERK6Number"></span><span id="SymEngine::EvalVisitor::bvisit__NumberCR"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1a84c86e2f74d55d21e5d9a73dd68cc813"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor6bvisitERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11EvalVisitor6bvisitERK11ComplexBase">
+<span id="_CPPv3N9SymEngine11EvalVisitor6bvisitERK11ComplexBase"></span><span id="_CPPv2N9SymEngine11EvalVisitor6bvisitERK11ComplexBase"></span><span id="SymEngine::EvalVisitor::bvisit__ComplexBaseCR"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1ad55551870978275948e552112fd0fe62"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="ComplexBase.html#_CPPv4N9SymEngine11ComplexBaseE" title="SymEngine::ComplexBase">ComplexBase</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor6bvisitERK11ComplexBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11EvalVisitor6bvisitERK8Constant">
+<span id="_CPPv3N9SymEngine11EvalVisitor6bvisitERK8Constant"></span><span id="_CPPv2N9SymEngine11EvalVisitor6bvisitERK8Constant"></span><span id="SymEngine::EvalVisitor::bvisit__ConstantCR"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1af09ebbc9d2efa3e206aa1180d3118181"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Constant.html#_CPPv4N9SymEngine8ConstantE" title="SymEngine::Constant">Constant</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor6bvisitERK8Constant" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11EvalVisitor6bvisitERK13NumberWrapper">
+<span id="_CPPv3N9SymEngine11EvalVisitor6bvisitERK13NumberWrapper"></span><span id="_CPPv2N9SymEngine11EvalVisitor6bvisitERK13NumberWrapper"></span><span id="SymEngine::EvalVisitor::bvisit__NumberWrapperCR"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1a86a9455fe45ac0218d1403ccbfd2f0db"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="NumberWrapper.html#_CPPv4N9SymEngine13NumberWrapperE" title="SymEngine::NumberWrapper">NumberWrapper</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor6bvisitERK13NumberWrapper" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine11EvalVisitor6bvisitERK15FunctionWrapper">
+<span id="_CPPv3N9SymEngine11EvalVisitor6bvisitERK15FunctionWrapper"></span><span id="_CPPv2N9SymEngine11EvalVisitor6bvisitERK15FunctionWrapper"></span><span id="SymEngine::EvalVisitor::bvisit__FunctionWrapperCR"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1af2566ce77e0969cb362cc6f204a7095b"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="FunctionWrapper.html#_CPPv4N9SymEngine15FunctionWrapperE" title="SymEngine::FunctionWrapper">FunctionWrapper</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor6bvisitERK15FunctionWrapper" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="member">
+<dt id="_CPPv4N9SymEngine11EvalVisitor4bitsE">
+<span id="_CPPv3N9SymEngine11EvalVisitor4bitsE"></span><span id="_CPPv2N9SymEngine11EvalVisitor4bitsE"></span><span id="SymEngine::EvalVisitor::bits__unsigned-l"></span><span class="target" id="classSymEngine_1_1EvalVisitor_1a985a92e5c512985033e0bab36271472a"></span>unsigned long <code class="descname">bits</code><a class="headerlink" href="#_CPPv4N9SymEngine11EvalVisitor4bitsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="EvaluateRealDouble.html">EvaluateRealDouble</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="ExpandVisitor.html">ExpandVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

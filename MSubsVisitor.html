@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>MSubsVisitor &#8212; symengine 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="NeedsSymbolicExpansionVisitor" href="NeedsSymbolicExpansionVisitor.html" />
+    <link rel="prev" title="mpz_view_flint" href="mpz_view_flint.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>symengine 1.0 documentation</span></a></h1>
+        <h2 class="heading"><span>MSubsVisitor</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="mpz_view_flint.html">mpz_view_flint</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="NeedsSymbolicExpansionVisitor.html">NeedsSymbolicExpansionVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content">
+        
+        
+  <div class="section" id="msubsvisitor">
+<h1>MSubsVisitor<a class="headerlink" href="#msubsvisitor" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv4N9SymEngine12MSubsVisitorE">
+<span id="_CPPv3N9SymEngine12MSubsVisitorE"></span><span id="_CPPv2N9SymEngine12MSubsVisitorE"></span><span id="SymEngine::MSubsVisitor"></span><span class="target" id="classSymEngine_1_1MSubsVisitor"></span><em class="property">class </em><code class="descname">MSubsVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="BaseVisitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine12MSubsVisitorE" title="SymEngine::MSubsVisitor">MSubsVisitor</a>, <a class="reference internal" href="XReplaceVisitor.html#_CPPv4N9SymEngine15XReplaceVisitorE" title="SymEngine::XReplaceVisitor">XReplaceVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine12MSubsVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N9SymEngine12MSubsVisitor12MSubsVisitorERK15map_basic_basic">
+<span id="_CPPv3N9SymEngine12MSubsVisitor12MSubsVisitorERK15map_basic_basic"></span><span id="_CPPv2N9SymEngine12MSubsVisitor12MSubsVisitorERK15map_basic_basic"></span><span id="SymEngine::MSubsVisitor::MSubsVisitor__map_basic_basicCR"></span><span class="target" id="classSymEngine_1_1MSubsVisitor_1aa73c652ae379b2c41983d770c0949dc0"></span><code class="descname">MSubsVisitor</code><span class="sig-paren">(</span><em class="property">const</em> map_basic_basic &amp;<em>d</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12MSubsVisitor12MSubsVisitorERK15map_basic_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine12MSubsVisitor6bvisitERK10Derivative">
+<span id="_CPPv3N9SymEngine12MSubsVisitor6bvisitERK10Derivative"></span><span id="_CPPv2N9SymEngine12MSubsVisitor6bvisitERK10Derivative"></span><span id="SymEngine::MSubsVisitor::bvisit__DerivativeCR"></span><span class="target" id="classSymEngine_1_1MSubsVisitor_1af63489fffc85d1b564c1333e14feb311"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Derivative.html#_CPPv4N9SymEngine10DerivativeE" title="SymEngine::Derivative">Derivative</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12MSubsVisitor6bvisitERK10Derivative" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N9SymEngine12MSubsVisitor6bvisitERK4Subs">
+<span id="_CPPv3N9SymEngine12MSubsVisitor6bvisitERK4Subs"></span><span id="_CPPv2N9SymEngine12MSubsVisitor6bvisitERK4Subs"></span><span id="SymEngine::MSubsVisitor::bvisit__SubsCR"></span><span class="target" id="classSymEngine_1_1MSubsVisitor_1a60abaf040b5311e13ffbdb43b6ee30c6"></span>void <code class="descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="Subs.html#_CPPv4N9SymEngine4SubsE" title="SymEngine::Subs">Subs</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12MSubsVisitor6bvisitERK4Subs" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="mpz_view_flint.html">mpz_view_flint</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="NeedsSymbolicExpansionVisitor.html">NeedsSymbolicExpansionVisitor</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, e.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>

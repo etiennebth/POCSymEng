@@ -1,0 +1,11 @@
+Abs
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Abs
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

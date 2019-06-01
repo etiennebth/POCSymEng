@@ -1,0 +1,360 @@
+.. symengine documentation master file, created by
+   sphinx-quickstart on Tue May 14 20:58:18 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+
+
+SymEngine Breathe
+==================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+   Add
+   Basic
+   RCPBasicHash
+   RCPBasicKeyEq
+   RCPBasicKeyLess
+   ComplexBase
+   Complex
+   Constant
+   vec_hash
+   Expression
+   GaloisFieldDict
+   GaloisFieldDict
+   GaloisField
+   Function
+   OneArgFunction
+   TwoArgBasic
+   MultiArgFunction
+   Sign
+   Floor
+   Ceiling
+   Conjugate
+   TrigBase
+   TrigFunction
+   InverseTrigFunction
+   Sin
+   Cos
+   Tan
+   Cot
+   Csc
+   Sec
+   ASin
+   ACos
+   ASec
+   ACsc
+   ATan
+   ACot
+   ATan2
+   Log
+   LambertW
+   Zeta
+   Dirichlet_eta
+   FunctionSymbol
+   FunctionWrapper
+   Derivative
+   Subs
+   HyperbolicBase
+   HyperbolicFunction
+   InverseHyperbolicFunction
+   Sinh
+   Csch
+   Cosh
+   Sech
+   Tanh
+   Coth
+   ASinh
+   ACsch
+   ACosh
+   ATanh
+   ACoth
+   ASech
+   KroneckerDelta
+   LeviCivita
+   Erf
+   Erfc
+   Gamma
+   LowerGamma
+   UpperGamma
+   LogGamma
+   Beta
+   PolyGamma
+   Abs
+   Max
+   Min
+   Infty
+   Integer
+   RCPIntegerKeyLess
+   Boolean
+   BooleanAtom
+   Contains
+   Piecewise
+   And
+   Or
+   Not
+   Xor
+   Relational
+   Equality
+   Unequality
+   LessThan
+   StrictLessThan
+   Mul
+   NaN
+   Sieve
+   Sieve
+   Number
+   NumberWrapper
+   Evaluate
+   Pow
+   Rational
+   SeriesCoeffInterface
+   SeriesBase
+   UnivariateSeries
+   Set
+   EmptySet
+   UniversalSet
+   FiniteSet
+   Interval
+   Union
+   Complement
+   ConditionSet
+   ImageSet
+   Symbol
+   Dummy
+   Visitor
+   BaseVisitor
+   StopVisitor
+   LocalStopVisitor
+   HasSymbolVisitor
+   CoeffVisitor
+   TransformVisitor
+   is_base_of_multiple
+   is_base_of_multiple&lt;
+   Derived,
+   First
+   &gt;
+   AtomsVisitor
+   CountOpsVisitor
+   GaloisFieldDict
+   Sieve
+   Abs
+   ACos
+   ACosh
+   ACot
+   ACoth
+   ACsc
+   ACsch
+   Add
+   And
+   ASec
+   ASech
+   ASin
+   ASinh
+   ATan
+   ATan2
+   ATanh
+   AtomsVisitor
+   BaseVisitor
+   Basic
+   Beta
+   Boolean
+   BooleanAtom
+   Ceiling
+   CoeffVisitor
+   Complement
+   Complex
+   ComplexBase
+   ComplexDouble
+   ComplexMPC
+   ConditionSet
+   Conjugate
+   Constant
+   Contains
+   Cos
+   Cosh
+   Cot
+   Coth
+   CountOpsVisitor
+   Csc
+   Csch
+   CSRMatrix
+   DenseMatrix
+   Derivative
+   DiffImplementation
+   Dirichlet_eta
+   Dummy
+   EmptySet
+   EnableRCPFromThis
+   Equality
+   Erf
+   Erfc
+   EvalComplexDoubleVisitor
+   EvalDoubleVisitor
+   EvalRealDoubleVisitor
+   EvalRealDoubleVisitorFinal
+   EvalRealDoubleVisitorPattern
+   Evaluate
+   EvaluateComplexDouble
+   EvaluateDouble
+   EvaluateInfty
+   EvaluateNaN
+   EvaluateRealDouble
+   EvalVisitor
+   ExpandVisitor
+   Expression
+   FiniteSet
+   Floor
+   fmpq_poly_wrapper
+   fmpq_wrapper
+   fmpz_poly_factor_wrapper
+   fmpz_poly_wrapper
+   fmpz_wrapper
+   FreeSymbolsVisitor
+   FuncArgTracker
+   Function
+   FunctionSymbol
+   FunctionWrapper
+   GaloisField
+   GaloisFieldDict
+   Gamma
+   HasSymbolVisitor
+   HyperbolicBase
+   HyperbolicFunction
+   ImageSet
+   Infty
+   Integer
+   Interval
+   InverseHyperbolicFunction
+   InverseTrigFunction
+   InvertComplexVisitor
+   IRBuilder
+   is_base_of_multiple
+   is_base_of_multiple&lt;
+   Derived,
+   First
+   &gt;
+   IsALinearArgTrigVisitor
+   KroneckerDelta
+   LambdaComplexDoubleVisitor
+   LambdaDoubleVisitor
+   LambdaRealDoubleVisitor
+   LambertW
+   LessThan
+   LeviCivita
+   LocalStopVisitor
+   Log
+   LogGamma
+   LowerGamma
+   MatrixBase
+   Max
+   Min
+   mp_randstate
+   mpq_view_flint
+   mpz_view_flint
+   MSubsVisitor
+   Mul
+   MultiArgFunction
+   NaN
+   NeedsSymbolicExpansionVisitor
+   Not
+   Number
+   NumberWrapper
+   NumerDenomVisitor
+   OneArgFunction
+   OptsCSEVisitor
+   Or
+   Piecewise
+   PolyGamma
+   Pow
+   Rational
+   RCPBasicHash
+   RCPBasicKeyEq
+   RCPBasicKeyLess
+   RCPIntegerKeyLess
+   RealDouble
+   RealImagVisitor
+   RealMPFR
+   RebuildVisitor
+   Relational
+   remove_reference
+   remove_reference&lt;
+   T
+   &amp;
+   &gt;
+   RewriteAsExp
+   Sec
+   Sech
+   SeriesBase
+   SeriesCoeffInterface
+   SeriesVisitor
+   Set
+   Sieve
+   Sign
+   Sin
+   Sinh
+   SSubsVisitor
+   StopVisitor
+   StrictLessThan
+   Subs
+   SubsVisitor
+   Symbol
+   Tan
+   Tanh
+   TransformVisitor
+   TrigBase
+   TrigFunction
+   two_by_two_matrix
+   TwoArgBasic
+   Unequality
+   Union
+   UnivariateSeries
+   UniversalSet
+   UpperGamma
+   vec_hash
+   Visitor
+   Xor
+   XReplaceVisitor
+   Zeta
+
+
+.. SymEngine Doxygen
+   ==================
+
+.. :polyvox:`SymEngine::Beta`
+
+.. :polyvox:`rational.h`
+
+
+.. .. doxygenindex::
+   .. doxygenfunction::
+   .. doxygenstruct::
+   .. doxygenenum::
+   .. doxygentypedef::
+   .. doxygenclass::
+
+
+
+   .. doxygenclass:: SymEngine::Beta
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:
+   :no-link:
+
+
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+

@@ -1,0 +1,11 @@
+EvaluateNaN
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::EvaluateNaN
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

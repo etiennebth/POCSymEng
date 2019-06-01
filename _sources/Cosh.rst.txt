@@ -1,0 +1,11 @@
+Cosh
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Cosh
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

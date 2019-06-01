@@ -1,0 +1,11 @@
+FunctionWrapper
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::FunctionWrapper
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

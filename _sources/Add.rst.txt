@@ -1,0 +1,11 @@
+Add
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Add
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:
