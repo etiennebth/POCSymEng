@@ -1,0 +1,11 @@
+TwoArgBasic
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::TwoArgBasic
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

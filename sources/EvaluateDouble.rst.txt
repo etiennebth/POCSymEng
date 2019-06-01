@@ -1,0 +1,11 @@
+EvaluateDouble
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::EvaluateDouble
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

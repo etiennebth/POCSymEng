@@ -1,0 +1,11 @@
+Boolean
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Boolean
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

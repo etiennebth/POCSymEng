@@ -1,0 +1,11 @@
+Number
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Number
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

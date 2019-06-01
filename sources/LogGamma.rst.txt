@@ -1,0 +1,11 @@
+LogGamma
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::LogGamma
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

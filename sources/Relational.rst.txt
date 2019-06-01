@@ -1,0 +1,11 @@
+Relational
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Relational
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

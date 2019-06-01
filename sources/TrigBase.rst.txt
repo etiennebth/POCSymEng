@@ -1,0 +1,11 @@
+TrigBase
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::TrigBase
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

@@ -1,0 +1,11 @@
+DenseMatrix
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::DenseMatrix
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

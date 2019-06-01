@@ -1,0 +1,11 @@
+Tanh
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Tanh
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

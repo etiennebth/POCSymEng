@@ -1,0 +1,11 @@
+ImageSet
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::ImageSet
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

@@ -1,0 +1,11 @@
+InvertComplexVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::InvertComplexVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

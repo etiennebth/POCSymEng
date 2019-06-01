@@ -1,0 +1,11 @@
+is_base_of_multiple&lt; Derived, First &gt;
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::is_base_of_multiple&lt; Derived, First &gt;
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

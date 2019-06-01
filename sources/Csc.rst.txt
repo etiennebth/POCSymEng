@@ -1,0 +1,11 @@
+Csc
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Csc
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

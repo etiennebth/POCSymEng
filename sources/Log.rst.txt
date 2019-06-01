@@ -1,0 +1,11 @@
+Log
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Log
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

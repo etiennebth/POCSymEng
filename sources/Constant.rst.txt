@@ -1,0 +1,11 @@
+Constant
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Constant
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

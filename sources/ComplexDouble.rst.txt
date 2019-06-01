@@ -1,0 +1,11 @@
+ComplexDouble
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::ComplexDouble
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

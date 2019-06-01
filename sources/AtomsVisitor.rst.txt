@@ -1,0 +1,11 @@
+AtomsVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::AtomsVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

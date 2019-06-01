@@ -1,0 +1,11 @@
+mpz_view_flint
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::mpz_view_flint
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

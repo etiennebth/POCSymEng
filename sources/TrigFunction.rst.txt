@@ -1,0 +1,11 @@
+TrigFunction
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::TrigFunction
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

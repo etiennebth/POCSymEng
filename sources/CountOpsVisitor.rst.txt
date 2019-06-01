@@ -1,0 +1,11 @@
+CountOpsVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::CountOpsVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

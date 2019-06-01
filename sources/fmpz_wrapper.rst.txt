@@ -1,0 +1,11 @@
+fmpz_wrapper
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::fmpz_wrapper
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

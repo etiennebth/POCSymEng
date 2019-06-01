@@ -1,0 +1,11 @@
+ACsch
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::ACsch
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

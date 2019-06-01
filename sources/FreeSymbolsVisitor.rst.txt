@@ -1,0 +1,11 @@
+FreeSymbolsVisitor
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::FreeSymbolsVisitor
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

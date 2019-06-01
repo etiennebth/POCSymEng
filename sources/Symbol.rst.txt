@@ -1,0 +1,11 @@
+Symbol
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Symbol
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

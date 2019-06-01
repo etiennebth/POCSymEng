@@ -1,0 +1,11 @@
+Zeta
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Zeta
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:

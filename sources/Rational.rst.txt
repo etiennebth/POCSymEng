@@ -1,0 +1,11 @@
+Rational
+-----------------------------------------
+ 
+ 
+.. doxygenclass:: SymEngine::Rational
+   :project: symengine
+   :members:
+   :protected-members:
+   :private-members:
+   :undoc-members:
+   :outline:
